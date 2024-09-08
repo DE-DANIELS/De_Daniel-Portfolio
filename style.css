@@ -403,6 +403,7 @@ main p {
   align-items: center;
   justify-content: center;
   /* height: 30rem; */
+  padding: 2rem 0.5rem;
 }
 .skill-header,
 .proj-header {
