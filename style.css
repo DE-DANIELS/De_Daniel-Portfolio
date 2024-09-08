@@ -4,11 +4,13 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(248, 247, 253, 0.5);
+  /* background-color: rgb(248, 247, 253, 0.5); */
+  background-color: #111111;
+  color: #f4f4f4;
 }
 /* NAVBAR */
 nav {
-  background-color: #fff;
+  background-color: #111111;
   position: fixed;
   top: 0;
   left: 0;
@@ -26,7 +28,8 @@ nav .navbar {
   font-size: 25px;
   font-family: cursive;
   text-transform: uppercase;
-  color: #6a2ba4;
+  /* color: #6a2ba4; */
+  color: #ca1c26;
   font-weight: bolder;
   text-decoration: none;
 }
@@ -41,40 +44,51 @@ nav .navbar {
 .nav a,
 .N-mobile a {
   text-decoration: none;
-  color: #585656;
+  /* color: #585656; */
+  color: #ca1c26;
   font-size: 16px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
-  padding: 5px;
+  padding: 10px 12px;
   cursor: pointer;
 }
 .nav a:hover,
 .N-mobile a:hover {
-  color: #d97956;
-  border-top: 2px solid #d97956;
-  border-bottom: 2px solid #d97956;
+  /* color: #d97956; */
+  color: #f4f4f4;
+  /* border-top: 2px solid #d97956; */
+  border-top: 2px solid #f4f4f4;
+  /* border-bottom: 2px solid #d97956; */
+  border-bottom: 2px solid #f4f4f4;
 }
 .active22 {
-  color: #d97956;
-  border-top: 2px solid #d97956;
-  border-bottom: 2px solid #d97956;
+  /* color: #f4f4f4; */
+  background-color: #f4f4f4;
+  /* border-top: 2px solid #d97956; */
+  /* border-top: 2px solid #f4f4f4; */
+  /* border-bottom: 2px solid #d97956; */
+  /* border-bottom: 2px solid #f4f4f4; */
 }
 .My-cv button,
 .abt-write button,
 .N-mobile button {
-  color: #fff;
-  background-color: #dc6a40;
+  /* color: #fff; */
+  color: #f4f4f4;
+  /* background-color: #dc6a40; */
+  background-color: #ca1c26;
   font-size: 16px;
   font-family: Georgia, "Times New Roman", Times, serif;
   padding: 13px 22px;
   /* border-radius: 10px; */
   border: none;
-  box-shadow: 2px 2px 5px gray;
+  /* box-shadow: 2px 2px 5px gray; */
+  box-shadow: 1px 1px 5px #c71b29;
   cursor: pointer;
 }
 .My-cv button:hover,
 .nav_mobile button:hover {
-  outline: 2px solid #d97956;
+  /* outline: 2px solid #d97956; */
+  background-color: #c71b29;
 }
 .navbar label {
   font-size: 2rem;
@@ -124,38 +138,41 @@ main {
   height: 42rem;
   padding-top: 7rem;
   /* background-color: aqua; */
-  border-bottom: 2px solid #f05319;
+  border-bottom: 2px solid #ca1c26;
 }
 /* main div{
     background-color: red;
 } */
 main .about-me {
+  color: #ca1c26;
   width: 480px;
   /* position: relative; */
   /* background-color: red; */
 }
 main .about-me h4 {
-  color: #2f2d3c;
+  /* color: #2f2d3c; */
   font-size: 17px;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 main .about-me h1 {
-  color: #dc6a40;
+  /* color: #dc6a40; */
+  /* color: #dc6a40; */
   font-size: 27px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: capitalize;
   margin-bottom: 7px;
 }
 main span {
-  color: #2f2d3c;
+  /* color: #2f2d3c; */
+  color: #f4f4f4;
   font-size: 40px;
   font-weight: bolder;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 main p {
-  color: #585656;
+  color: #7a7979;
   font-size: 17px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify;
@@ -169,35 +186,41 @@ main p {
   padding: 12px 30px;
   text-transform: capitalize;
   border-radius: 10px;
-  box-shadow: 0 3px 5px gray;
+  /* box-shadow: 0 3px 5px gray; */
   transition: all ease-in-out 0.4s;
   cursor: pointer;
 }
 .hireme {
-  color: #dc6a40;
+  /* color: #dc6a40; */
+  color: #f4f4f4;
   /* background-color: #6a2ba4; */
-  outline: 2px solid #dc6a40;
+  /* outline: 2px solid #dc6a40; */
+  outline: 2px solid #f4f4f4;
   margin-right: 15px;
 }
 .hireme:hover {
-  color: #fff;
-  background-color: #dc6a40;
+  color: #ca1c26;
+  background-color: #f4f4f4;
   /* transform: scale(2); */
   /* outline: 1px solid #6a2ba4; */
 }
 .portfolio {
-  color: #6a2ba4;
-  outline: 1px solid #6a2ba4;
+  /* color: #6a2ba4; */
+  color: #ca1c26;
+  /* outline: 1px solid #6a2ba4; */
+  outline: 1px solid #ca1c26;
 }
 .portfolio:hover {
-  color: #fff;
-  background-color: #6a2ba4;
+  color: #f4f4f4;
+  /* background-color: #6a2ba4; */
+  background-color: #ca1c26;
 }
 .profile-picture {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  border: 3px solid #f05319;
+  /* border: 3px solid #f05319; */
+  border: 3px solid #ca1c26;
   padding: 0.5rem;
 }
 .profile-picture img {
@@ -215,9 +238,10 @@ main p {
   right: -4rem; */
 }
 .icons > div {
-  width: 2rem;
-  height: 2rem;
-  border: 2px solid #dc6a40;
+  width: 2.3rem;
+  height: 2.3rem;
+  /* border: 2px solid #dc6a40; */
+  background-color: #ca1c26;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -226,19 +250,23 @@ main p {
   margin-bottom: 0.5rem;
 }
 .icons a {
-  font-size: 1rem;
-  color: #dc6a40;
+  font-size: 0.8rem;
+  /* color: #dc6a40; */
+  color: #f4f4f4;
 }
 .icons div:hover a {
-  color: #6d379f;
+  /* color: #6d379f; */
+  /* color: #ca1c26; */
   cursor: pointer;
   /* transition: all ease-in-out 0.3s; */
   transform: scale(1.1);
 }
 .icons div:hover {
-  border: 2px solid #6d379f;
-  transition: all ease-in-out 0.3s;
-  transform: scale(1.1);
+  /* border: 2px solid #6d379f; */
+  background-color: transparent;
+  outline: 2px solid #ca1c26;
+  /* transition: all ease-in-out 0.3s; */
+  transform: scale(1.02);
 }
 /* ABOUT ME */
 #About-me {
@@ -255,13 +283,15 @@ main p {
 .abt_img {
   width: 270px;
   height: 350px;
-  border: 0.3rem solid #6a2ba4;
+  background-color: #1e1e1e;
+  /* border: 0.3rem solid #6a2ba4; */
   position: relative;
 }
 .abt_img div {
   width: 300px;
   height: 370px;
-  border: 0.3rem solid #f05319;
+  /* border: 0.3rem solid #f05319; */
+  /* border: 0.3rem solid #ca1c26; */
   position: absolute;
   bottom: 1.5rem;
   right: -4.5rem;
@@ -276,7 +306,8 @@ main p {
 .abt-header h1,
 .skill-header h1,
 .proj-header h1 {
-  color: #6d379f;
+  /* color: #6d379f; */
+  color: #f4f4f4;
   font-size: 2.4rem;
   text-transform: capitalize;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -286,7 +317,7 @@ main p {
 .abt-header p,
 .skill-header p,
 .proj-header p {
-  color: #585656;
+  color: #7a7979;
   font-size: 0.85rem;
   text-transform: capitalize;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -296,7 +327,8 @@ main p {
 }
 .trans {
   /* color: rgb(109, 55, 159, 0.8); */
-  color: rgb(250, 105, 52, 0.2);
+  /* color: rgb(250, 105, 52, 0.2); */
+  color: rgb(202, 28, 38, 0.2);
   font-size: 5rem;
   text-transform: capitalize;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -335,11 +367,11 @@ main p {
 .abt-write h3 {
   font-size: 1.1rem;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #6a2ba4;
+  color: #7a7979;
   margin-top: 2rem;
 }
 .abt-write span {
-  color: #dc6a40;
+  color: #ca1c26;
   font-weight: 900;
   margin-right: 0.2rem;
 }
@@ -352,20 +384,21 @@ main p {
   /* border-radius: 0.4rem; */
   /* border: 2px solid #dc6a40; */
   border: none;
-  background-color: #dc6a40;
-  color: #fff;
+  background-color: #ca1c26;
+  color: #f4f4f4;
   margin-top: 1.5rem;
-  box-shadow: 1px 1px 5px #585656;
+  box-shadow: 1px 1px 5px #c71b29;
   cursor: pointer;
   transition: all ease-in-out 0.3s;
 }
 .abt-write button:hover {
-  background-color: #f05319;
+  background-color: #db1620;
 }
 /* MY SKILL */
 #My-skill {
   /* background-color: bisque; */
-  background-color: rgb(192, 192, 192, 0.1);
+  /* background-color: rgb(192, 192, 192, 0.1); */
+  background-color: #1e1e1e;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -387,7 +420,7 @@ main p {
   top: 0;
   right: -2.5rem;
   font-style: 5.5rem;
-  z-index: -1;
+  z-index: 1;
 }
 #skill-list {
   display: flex;
@@ -412,14 +445,17 @@ main p {
 .skill-circle {
   width: 6rem;
   height: 6rem;
-  border: 2px solid #585656;
+  border: 2px solid #7a7979;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2.5rem;
   border-radius: 50%;
   margin: 0 auto 1rem;
-  color: #585656;
+  color: #ca1c26;
+}
+.skil-li1:hover .skill-circle {
+  border: 2px solid #ca1c26;
 }
 .skill-list > div:first-child {
   margin-bottom: 1.5rem;
@@ -432,7 +468,7 @@ main p {
 }
 .skill-list .skil-li1 h3 {
   /* color: #dc6a40; */
-  color: #6a2ba4;
+  color: #f4f4f4;
   font-size: 0.85rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
@@ -440,14 +476,16 @@ main p {
 .skill-list .line1 {
   width: 100%;
   height: 0.5rem;
-  background-color: gray;
+  /* background-color: gray; */
+  background-color: #7a7979;
   border-radius: 10px;
 }
 .skill-list .line2 {
   width: 95%;
   height: 0.5rem;
   /* background-color: #6a2ba4; */
-  background-color: #f05319;
+  /* background-color: #f05319; */
+  background-color: #ca1c26;
   border-radius: 10px;
 }
 .line2.css {
@@ -483,10 +521,11 @@ main p {
 }
 .card-container a {
   text-decoration: none;
-  color: #585656;
+  color: #7a7979;
 }
 .proj-card1 {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #1e1e1e;
   width: 25rem;
   max-width: 25rem;
   height: 20rem;
@@ -507,22 +546,23 @@ main p {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: rgb(106, 43, 164, 0.2);
+  /* background-color: rgb(106, 43, 164, 0.2); */
+  background-color: rgb(202, 28, 38, 0.2);
   transition: all ease-in-out 0.3s;
 }
 .proj-card1:hover::before {
   width: 100%;
   height: 100%;
-  background-color: #f05319;
+  background-color: rgb(202, 28, 38, 0.7);
   z-index: -1;
 }
 .proj-card1:hover h5,
 .proj-card1:hover p,
 .proj-card1:hover i {
-  color: #fff;
+  color: #f4f4f4;
 }
 .proj-card1:hover .iconbox {
-  background-color: rgb(255, 255, 255, 0.2);
+  background-color: rgb(244, 244, 244, 0.2);
 }
 .card-sub {
   /* background-color: pink; */
@@ -532,12 +572,14 @@ main p {
   width: 4rem;
   height: 4.5rem;
   /* background-color: rgb(220, 106, 64, 0.3); */
-  background-color: rgb(106, 43, 164, 0.2);
+  /* background-color: rgb(106, 43, 164, 0.2); */
+  background-color: rgb(202, 28, 38, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.7rem;
-  color: rgb(106, 43, 164, 0.8);
+  /* color: rgb(106, 43, 164, 0.8); */
+  color: #7a7979;
   margin: auto;
 }
 .card-sub h5 {
@@ -557,8 +599,9 @@ main p {
   display: flex;
   align-content: center;
   justify-content: space-around;
-  color: #d97956;
-  background-color: #2f2d3c;
+  color: #7a7979;
+  /* background-color: #2f2d3c; */
+  background-color: #1e1e1e;
   padding: 20px 0;
   /* margin-top: 25px; */
 }
@@ -573,20 +616,20 @@ main p {
 }
 .footer-nav ul li a,
 .phone a {
-  color: #d97956;
+  color: #7a7979;
   text-decoration: none;
 }
 .footer-nav ul li a:hover {
-  color: white;
+  color: #f4f4f4;
   text-decoration: underline;
   cursor: pointer;
 }
 .footer-nav ul li:hover::marker {
-  color: #fff;
+  color: #f4f4f4;
 }
 .phone a {
   padding: 10px 15px;
-  border: 2px solid white;
+  border: 2px solid #7a7979;
   border-radius: 20px;
 }
 .phone .bi {
@@ -596,7 +639,7 @@ main p {
   margin-right: 5px;
 }
 .phone > a:hover {
-  color: #fff;
+  color: #f4f4f4;
 }
 
 /********************
