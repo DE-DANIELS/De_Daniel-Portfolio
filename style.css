@@ -48,8 +48,7 @@ nav .navbar {
   padding: 10px 12px;
   cursor: pointer;
 }
-.nav a:hover,
-.N-mobile a:hover {
+.nav a:hover {
   border-top: 2px solid #f4f4f4;
   border-bottom: 2px solid #f4f4f4;
 }
@@ -89,15 +88,36 @@ nav .navbar {
 }
 /* NAV MOBILE */
 .N-mobile {
-  margin-top: 1rem;
+  margin-top: 0.7rem;
   margin-bottom: 0.7rem;
   padding-left: 2rem;
   display: none;
 }
+.N-mobile ul {
+  display: block;
+  /* margin-bottom: 1rem; */
+}
+.N-mobile ul li a {
+  display: block;
+  /* width: 1; */
+  /* margin: auto; */
+  border: none;
+  padding: 1rem 0;
+}
+.N-mobile ul li a:hover {
+  border-left: 0.5rem solid #ca1c26;
+  /* background-color: var(--Bg1-DY); */
+  color: var(--Bg1-DY);
+  padding-left: 0.5rem;
+  transition: all ease-in-out 0.2s;
+}
 .N-mobile ul li {
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 0.5rem; */
   list-style-type: none;
   text-transform: capitalize;
+}
+.N-mobile button {
+  margin-top: 0.5rem;
 }
 /* MAIN SECTION */
 main {
