@@ -651,4 +651,9 @@ main p {
   .phone a:last-child {
     display: block;
   }
+  .proj-card1 {
+    width: 22rem;
+    max-width: 25rem;
+    /* justify-content: center; */
+  }
 }
