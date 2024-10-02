@@ -571,6 +571,9 @@ main p {
 .phone > a:hover {
   color: #f4f4f4;
 }
+.phone a:last-child {
+  display: none;
+}
 
 /********************
     RESPONSIVENESS
@@ -641,7 +644,11 @@ main p {
   #footer p {
     font-size: 0.7rem;
   }
-  .phone a:first-child {
+  .phone a:first-child,
+  .phone a:nth-child(2) {
     display: none;
+  }
+  .phone a:last-child {
+    display: block;
   }
 }
