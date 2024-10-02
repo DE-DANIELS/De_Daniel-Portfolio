@@ -656,4 +656,8 @@ main p {
     max-width: 25rem;
     /* justify-content: center; */
   }
+  #footer {
+    display: flex;
+    align-items: center;
+  }
 }
